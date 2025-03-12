@@ -1,6 +1,9 @@
-const createConfig = require("semantic-release-config-gitmoji/lib/createConfig");
 
-const config = createConfig({
-  githubAssets: ["src/*.yml"],
-});
-module.exports = config;
+module.exports = {
+  extends: "semantic-release-config-gitmoji",
+  plugins: [
+    ["@semantic-release/git", { 
+      assets: ["src/*.yml", "CHANGELOG.md", "package.json"] 
+    }]
+  ]
+};

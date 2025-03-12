@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arvinxx/user-journey-map-template.git"
+    "url": "git+https://github.com/wuzihan98/user-journey-map-template.git"
   },
   "author": "Arvin Xu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arvinxx/user-journey-map-template/issues"
+    "url": "https://github.com/wuzihan98/user-journey-map-template/issues"
   },
   "publishConfig": {
     "access": "public",
@@ -24,8 +24,8 @@
     "commitlint": "^12.0.1",
     "commitlint-config-gitmoji": "^2.2.1",
     "husky": "^4.3.8",
-    "semantic-release": "^17.3.7",
-    "semantic-release-config-gitmoji": "^1.2.4"
+    "semantic-release": "^18.0.1",
+    "semantic-release-config-gitmoji": "^1.5.3"
   },
-  "homepage": "https://github.com/arvinxx/user-journey-map-template#readme"
+  "homepage": "https://github.com/wuzihan98/user-journey-map-template#readme"
 }
