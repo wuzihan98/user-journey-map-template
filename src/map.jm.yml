@@ -1,58 +1,46 @@
-# 阶段步骤
+# 角色一：软件开发部门应届生
 stages:
-  - name: 计划租车
+  - name: 环境配置
     actions:
-      - name: 找租车平台
+      - name: 下载开发工具链
         emotion: -1
-      - name: 对比不同平台
+      - name: 处理依赖库冲突
         emotion: -2
-      - name: 确定平台
+      - name: 完成环境搭建
         emotion: 0
 
-  - name: 租车
+  - name: 代码理解
     actions:
-      - name: 选择租车日期
-        emotion: -1
-      - name: 与同伴讨论车型
-        emotion: -1
-      - name: 选择租车类型
-        emotion: 0
-      - name: 支付费用
-        emotion: 1
-
-  - name: 提车
-    actions:
-      - name: 打车去提车点
-        emotion: 2
-      - name: 确认提车时间和地点
-        emotion: 2
-      - name: 确认车况
-        emotion: 1
-      - name: 确认还车注意事项
-        emotion: 1
-      - name: 取车离开
-        emotion: 2
-
-  - name: 游玩
-    actions:
-      - name: 返回接同伴
-        emotion: 2
-      - name: 开车游玩一天
-        emotion: 0
-      - name: 车出了问题
+      - name: 阅读20万行遗产代码
         emotion: -2
-      - name: 打电话给客服
+      - name: 寻找核心逻辑模块
         emotion: -1
-      - name: 处理车况
+      - name: 发现无注释代码段
+        emotion: -2
+
+  - name: 开发实施
+    actions:
+      - name: 编写新功能代码
+        emotion: -1
+      - name: 发现重复开发已有模块
+        emotion: -2
+      - name: 重构代码结构
         emotion: 0
 
-  - name: 还车
+  - name: 代码审查
     actions:
-      - name: 加油站加油
+      - name: 提交Pull Request
         emotion: -1
-      - name: 确认使用车况
-        emotion: 0
-      - name: 完成车辆交接
+      - name: 收到规范不符合反馈
+        emotion: -2
+      - name: 第三次修改通过
         emotion: 1
-      - name: 打车返回
+
+  - name: 知识沉淀
+    actions:
+      - name: 编写开发文档
         emotion: 0
+      - name: 发现文档未关联知识库
+        emotion: -1
+      - name: 接受知识流失现实
+        emotion: -2
