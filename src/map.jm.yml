@@ -23,7 +23,7 @@ stages:
       - name: 现场装配执行
         emotion: 2
       - name: 出现突发问题
-        emotion: -2
+        emotion: -1
 
 
 
