@@ -1,46 +1,36 @@
-# 角色一：软件开发部门应届生
 stages:
-  - name: 环境配置
+  - name: 入职培训
     actions:
-      - name: 下载开发工具链
-        emotion: -1
-      - name: 处理依赖库冲突
+      - name: 学习工艺知识库
+        emotion: -0.5
+      - name: 查看案例，提问
         emotion: -2
-      - name: 完成环境搭建
+
+  - name: 工艺设计
+    actions:
+      - name: 工位明细、工艺流程设计
         emotion: 0
-
-  - name: 代码理解
-    actions:
-      - name: 阅读20万行遗产代码
-        emotion: -2
-      - name: 寻找核心逻辑模块
+        # 痛点：300页协议包含32种特殊业务场景[1](@ref)
+        # AI优化：NLP生成交互式知识图谱[3](@ref)
+      - name: 绘制装配指导书
         emotion: -1
-      - name: 发现无注释代码段
+
+  - name: 审核应用
+    actions:
+      - name: 根据评审意见修改
+        emotion: -1
+        # AI优化：LSTM模型自动生成预测代码框架[3](@ref)
+      - name: 现场装配执行
+        emotion: 2
+      - name: 出现突发问题
         emotion: -2
 
-  - name: 开发实施
-    actions:
-      - name: 编写新功能代码
-        emotion: -1
-      - name: 发现重复开发已有模块
-        emotion: -2
-      - name: 重构代码结构
-        emotion: 0
 
-  - name: 代码审查
-    actions:
-      - name: 提交Pull Request
-        emotion: -1
-      - name: 收到规范不符合反馈
-        emotion: -2
-      - name: 第三次修改通过
-        emotion: 1
 
   - name: 知识沉淀
     actions:
-      - name: 编写开发文档
-        emotion: 0
-      - name: 发现文档未关联知识库
+      - name: 提交多仓库协同模块PR
         emotion: -1
-      - name: 接受知识流失现实
+        # 痛点：微服务事务冲突需三次架构调整[1](@ref)
+      - name: 收到K8s资源配额预警
         emotion: -2
