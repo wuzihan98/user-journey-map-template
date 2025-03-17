@@ -30,7 +30,7 @@ stages:
   - name: 知识沉淀
     actions:
       - name: 提交多仓库协同模块PR
-        emotion: -1
+        emotion: 0
         # 痛点：微服务事务冲突需三次架构调整[1](@ref)
       - name: 收到K8s资源配额预警
-        emotion: -2
+        emotion: -1
