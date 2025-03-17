@@ -2,14 +2,14 @@ stages:
   - name: 入职培训
     actions:
       - name: 学习工艺知识库
-        emotion: -0.5
+        emotion: 0
       - name: 查看案例，提问
-        emotion: -2
+        emotion: -1
 
   - name: 工艺设计
     actions:
       - name: 工位明细、工艺流程设计
-        emotion: 0
+        emotion: -2
         # 痛点：300页协议包含32种特殊业务场景[1](@ref)
         # AI优化：NLP生成交互式知识图谱[3](@ref)
       - name: 绘制装配指导书
